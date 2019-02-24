@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Hello World!
+        Hello World and the webpack dev server!
       </div>
     )
   }
