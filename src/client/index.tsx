@@ -1,12 +1,11 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom';
+import {Main} from './components/Main';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        Hello World and the webpack dev server and new friend TypeScript!
-      </div>
+      <Main compiler='TypeScript'/>
     )
   }
 }
